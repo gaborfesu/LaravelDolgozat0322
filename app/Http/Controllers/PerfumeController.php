@@ -30,7 +30,7 @@ class PerfumeController extends Controller
 
         $perfume->save();
 
-        return redirect( "new-perfume" );
+        return redirect( "perfumes" );
     }
 
     public function editPerfume( $id ) {
